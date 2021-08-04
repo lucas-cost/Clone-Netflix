@@ -1,0 +1,128 @@
+:root {
+  --vermelho: #e50914;
+  --preto: #141414;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--preto);
+  font-family: Netflix Sans;
+  color: white;
+}
+
+.titulo {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  font-size: 40px;
+}
+
+.descricao {
+  font-family: Netflix Sans Thin;
+}
+
+header .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  margin-left: 2.8rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.1rem;
+  height: 2.2rem;
+}
+
+header nav a {
+  font-family: Netflix Sans Regular;
+  text-decoration: none;
+  color: #aaa;
+  margin-right: 10px;
+}
+
+header nav a:hover {
+  color: #fff;
+}
+
+/*INICIO SÉRIE*/
+
+.serie-principal {
+  font-size: 13px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url('/img/the-witcher.jpg');
+  height: 500px;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.serie-principal .descricao {
+  margin-bottom: 50px;
+}
+
+.serie-principal .titulo {
+  margin-bottom: 10px;
+}
+
+.serie-principal .container {
+  margin-left: 3rem;
+}
+
+.botao {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+  font-size: 13px;
+}
+
+.botao:hover {
+  background-color: white;
+  color: black;
+}
+
+/* NAO ESTÁ FUNCIONANDO*/
+.botao i {
+  margin-right: 8px; /* Espaçamento dos icones PLAY e INFOR*/
+}
+/* NAO ESTÁ FUNCIONANDO*/
+
+.box-filme {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.copy {
+  font-family: Netflix Sans Thin;
+  text-align: center;
+  margin-top: 10rem;
+  font-size: x-small;
+}
+
+.clone {
+  font-family: Netflix Sans Thin;
+  text-align: center;
+  font-size: x-small;
+  margin-bottom: 0.5rem;
+}
+
+.carrossel-filmes {
+  margin-top: 5px;
+}
+
+.navegacao {
+  margin-right: 37px;
+}

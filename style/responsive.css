@@ -1,0 +1,39 @@
+@media screen and (max-width: 650px) {
+  header .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .logo img {
+    align-items: center;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .botao {
+    margin-top: 5px;
+    width: 300px;
+    align-items: center;
+  }
+  .descricao {
+    margin-right: 35%;
+  }
+
+  .navegacao {
+    margin-bottom: 0.3rem;
+    margin-left: 45px;
+  }
+}
+
+@media screen and (min-width: 651px) {
+  .descricao {
+    margin-right: 40%;
+  }
+}
+
+@media screen and (max-width: 377px) {
+  .navegacao {
+    align-items: center;
+    margin-left: 0.6rem;
+    margin-right: 0;
+  }
+}
